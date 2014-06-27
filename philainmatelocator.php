@@ -194,7 +194,7 @@ EOM;
 return $message;
 }
 
-function philapaywidget($args, $instance) { // widget sidebar output
+function philainmatelocatorwidget($args, $instance) { // widget sidebar output
   extract($args, EXTR_SKIP);
   echo $before_widget; // pre-widget code from theme
   echo philainmatelocator_handler();
