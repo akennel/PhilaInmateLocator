@@ -90,7 +90,7 @@ function startInmateSearch()
 function getInmates(searchCriteria)
 {
 var results = "";
-var requestURL = "http://dotappbeta01.phila.gov/PrisonsInmateLocator/InmateLocator.asmx/GetListOfInmates?WhereClause=" + searchCriteria;
+var requestURL = "http://moisappprd01.phila.gov/PrisonInmateLocator/InmateLocator.asmx/GetListOfInmates?WhereClause=" + searchCriteria;
 //requestURL = "http://localhost/GetListOfInmates.xml";
 var resultsCount = 0;
 var newHTML = "<h2>Found the Following</h2>";
